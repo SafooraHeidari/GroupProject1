@@ -1,0 +1,120 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
+
+/*color: #1e3b1a;*/
+:root{
+    --primary-color: #208222;
+    --btn-color: #144e1c;
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Lora', serif;
+    --font3: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e8ebe9;
+}
+.product--price{
+    color: var(--btn-color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family:var(--font3);
+    margin-left: 28px;
+}
+.product--name{
+    margin-left: 28px;
+}
+.product--name a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--btn-color);
+    font-family: var(--font2);
+}
+
+.content-title{
+    text-align: center;
+    color: var(--btn-color);
+    font-family: var(--font2);
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.gallery{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    /*padding-bottom: 100px;*/
+}
+
+.album{
+    width: 300px;
+    height: 258px;
+    margin: 2rem 2rem;
+    display: flex;
+}
+.product--image{
+    align-self: center;
+    margin: auto;
+    box-shadow: 8px 8px 20px black;
+}
+
+.product-1{
+    background-color: #262628;
+}
+.product-2{
+    background-color: #bababc;
+}
+.product-3{
+    background-color: #6a2528;
+}
+.product-4{
+    background-color: #274649;
+}
+.product-5{
+    background-color: #392338;
+}
+.product-6{
+    background-color: #aeabbe;
+}
+.product-7{
+    background-color: #a08870;
+}
+.product-8{
+    background-color: #365d2e;
+}
+.product-9{
+    background-color: #c8a2af;
+}
+
+.btn__style{
+    /*color: var(--btn-color);*/
+    background-color: rgba(219,221,226,0);
+    border-color: var(--btn-color);
+    font-family: var(--font1);
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 15px 35px;
+    border-width: 2px;
+    border-radius: 0px;
+}
+.btn__style a{
+    text-decoration: none;
+    color: var(--btn-color);
+}
+.btn--position{
+    margin-top: 100px;
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
