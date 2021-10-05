@@ -1,0 +1,70 @@
+.integrated-container {
+    width: 100%;
+    height: 50rem;
+    display: grid;
+    grid-template: 1fr/1fr 1fr;
+    grid-template-areas: "description image";
+}
+.integrated-description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #144e1c;
+    padding: 8.8rem;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.integrated-description p {
+    padding: 0 0 3rem 2rem;
+    font-weight: lighter;
+}
+.integrated-description h2 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: "Lora", Helvetica, Arial, sans-serif;
+}
+.integrated-button {
+    align-self: flex-start;
+    padding: 0.8rem 2rem;
+    color: #144e1c;
+    background-color: white;
+    border: 2px solid #144e1c;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.integrated-button:hover{
+    border-color: #208222;
+    color: #208222;
+}
+
+.integrated-image{
+    grid-area: image;
+    background-image: url("../images/ingredient-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -13.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .integrated-container{
+        grid-template: 1fr 2fr/1fr;
+        grid-template-areas:    "description"
+                                "image";
+        height: 100rem;
+    }
+    .integrated-description{
+        padding: 2rem;
+        justify-content: space-around;
+    }
+    .integrated-description h2 {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .integrated-description p {
+        font-size: 0.8rem;
+    }
+}
