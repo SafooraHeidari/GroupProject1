@@ -4,4 +4,12 @@
     --font1: 'Poppins', sans-serif;
     --font2: 'Lora', serif;
     --font3: 'Roboto', sans-serif;
+    --p-color: #34622b;
+}
+p, span, a {
+    color: var(--p-color);
+    font-family: var(--font3);
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
 }

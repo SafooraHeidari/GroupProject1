@@ -2,26 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/home-page.css"/>
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/global.css">
+    <title>Tea shop</title>
     <link rel="stylesheet" href="css/sticky-menu.css"/>
-    <link rel="stylesheet" href="css/home-ingredient.css">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/slider-teashop.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/products-teashop.css"/>
 </head>
-
 <body>
 
-<div class="bgimg-1">
+<div class="slider-teashop">
     <div id="navbar" class="et_fixed_nav">
         <div id="navbar-main">
             <img class="logo" src="images/tea4.png"/>
@@ -34,19 +23,22 @@
             <i class="icon-bag-fine"></i>
         </div>
     </div>
-    <div class="caption">
-        <div>
-            <img class="logo-slider" src="images/slider-logo.png">
-        </div>
-        <h1 class="border">Special quality tea <br>from furthest places around the world</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nulla, pariatur? Alias consequuntur, eos
-            impedit nihil omnis reiciendis.</p>
+    <di class="view-text">
+        <h1>
+            View our<br>tea selections
+        </h1>
+    </di>
 
-    </div>
 </div>
 
 <div class="Teashop-container">
-    <div class = "content-title">Choose your flavour and shop now</div>
+    <div class = "shop-filter">
+        <p>Showing all 9 results</p>
+        <span>
+            <input id="sorting" type="text" step="1" size="1" value="Default sorting">
+        </span>
+    </div>
+
 
     <div class = "gallery">
         <div>
@@ -96,35 +88,33 @@
             <div class="product--name"><a href="">Nonummy sed</a></div>
             <div class="product--price">&#163 4.00</div>
         </div>
+
+        <div>
+            <div class="album product-7">
+                <img class = "product--image" src="images/tea4-shop-pic7.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Pulvinar massa</a></div>
+            <div class="product--price">&#163 18.00</div>
+        </div>
+
+        <div>
+            <div class="album product-8">
+                <img class = "product--image" src="images/tea4-shop-pic8.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Suspendisse sapien</a></div>
+            <div class="product--price">&#163 35.00</div>
+        </div>
+
+        <div>
+            <div class="album product-9">
+                <img class = "product--image" src="images/tea4-shop-pic9.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Vivamus nulla</a></div>
+            <div class="product--price">&#163 5.00</div>
+        </div>
     </div>
 
-    <div class = "btn--position">
-        <button class = "btn__style"><a href="">VIEW MORE</a></button>
-    </div>
 </div>
-
-
-
-<div class="integrated-container">
-
-    <div class="integrated-description">
-        <h2>
-            Best ingredients picked specially for our clients from the best plantations over the world
-        </h2>
-        <p>
-            <strong>Fusce ut velit laoreet</strong>, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
-            eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna. Suspendisse vel facilisis odio, at
-            ornare nibh. In malesuada, tortor eget sodales mollis.
-        </p>
-        <a class="integrated-button" href="https://themes.muffingroup.com/be/tea4/about-us/">
-            Learn More
-        </a>
-    </div>
-
-    <div class="integrated-image"></div>
-
-</div>
-
 <script src="js/sticky-menu.js"></script>
 </body>
 </html>

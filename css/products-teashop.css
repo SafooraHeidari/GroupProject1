@@ -6,9 +6,19 @@
 @import url('global.css');
 
 .Teashop-container{
-    background-color: #e8ebe9;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
+}
+#sorting{
+    float: right;
+    padding: 10px;
+    font-family: var(--font3);
+    font-size: 14px;
+    min-width: 200px;
+    color: #8da681;
+    background-color: rgba(21,46,19,0);
+    border-color: #8da681;
+    margin: 20px;
 }
 .product--price{
     color: var(--btn-color);
@@ -30,14 +40,16 @@
     font-family: var(--font2);
 }
 
-.content-title{
-    text-align: center;
-    color: var(--btn-color);
-    font-family: var(--font2);
-    font-size: 35px;
-    line-height: 42px;
-    font-weight: 300;
-    margin-bottom: 20px;
+.shop-filter{
+    background-image: url("../images/stripes_5_b.png");
+    margin: auto;
+    font-family: var(--font3);
+    width: 1080px;
+    height:80px;
+}
+.shop-filter p{
+    padding: 10px 10px;
+    display: inline-block;
 }
 .gallery{
     width: 80vw;
@@ -79,26 +91,14 @@
 .product-6{
     background-color: #aeabbe;
 }
-.btn__style{
-    /*color: var(--btn-color);*/
-    background-color: rgba(219,221,226,0);
-    border-color: var(--btn-color);
-    font-family: var(--font1);
-    font-size: 15px;
-    line-height: 15px;
-    font-weight: 500;
-    letter-spacing: 4px;
-    padding: 15px 35px;
-    border-width: 2px;
-    border-radius: 0px;
+.product-7{
+    background-color: #a08870;
 }
-.btn__style a{
-    text-decoration: none;
-    color: var(--btn-color);
+.product-8{
+    background-color: #365d2e;
 }
-.btn--position{
-    margin-top: 100px;
-    text-align: center;
+.product-9{
+    background-color: #c8a2af;
 }
 img:hover{
     transform: scale(1.1);

@@ -3,11 +3,6 @@ body, html {
     margin: 0;
     font-family:"Lora";
 }
-@font-face {
-    font-family: Lora;
-    src: url("fonts/Lora-Regular.woff");
-    src: url("fonts/Lora-Regular.woff2");
-}
 .bgimg-1 {
     position: relative;
     background-attachment: fixed;
