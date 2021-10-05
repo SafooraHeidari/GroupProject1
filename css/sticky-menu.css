@@ -54,10 +54,6 @@
     width: 100%;
     background-color: #18392e;
 }
-
-.sticky + .content {
-    padding-top: 60px;
-}
 p{
     font-size: 24px;
 }
@@ -65,4 +61,5 @@ p{
     width: 126px;
     height: 30px;
     padding-top: 15px;
+    padding-right: 80px;
 }
