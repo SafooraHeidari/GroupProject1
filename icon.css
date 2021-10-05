@@ -1,0 +1,33 @@
+.sentence{
+    color: darkgreen;
+    font-family: Arial;
+    font-size: 28px;
+    padding-top: 10px;
+}
+.icon-width{
+    width: 150px;
+    float: left;
+    margin: 50px 25px;
+}
+.icon{
+    margin-bottom: 15px;
+}
+.icon-name{
+    color: #DAA520;
+    font-size: 21px;
+}
+.icon-1-width {
+    width: 150px;
+    float: left;
+    margin: 25px 147px 50px 240px;
+}
+.icon-2-width {
+    width: 150px;
+    float: left;
+    margin: 25px 126px 50px 25px;
+}
+.icon-3-width {
+    width: 150px;
+    float: left;
+    margin: 25px 25px 50px 25px;
+}
