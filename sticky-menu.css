@@ -7,9 +7,11 @@
 }
 #navbar {
     overflow: hidden;
-    background-color: #18392e;
-    height: 90px;
+    /*background: inherit;*/
+    /*background-color: #18392e;*/
+    height: 60px;
     opacity: 1;
+    z-index: 100;
 }
 #navbar a {
     display: block;
@@ -27,12 +29,15 @@
 }
 
 #navbar a:hover {
-    background-color: #18392e;
+    /*background-color: #18392e;*/
     color: #fff5fe;
 }
+/*#navbar.fixed{*/
+/*    background: #18392e;*/
+/*}*/
 
 #navbar a.active {
-    background-color: #18392e;
+    /*background-color: #18392e;*/
     color: #fff5fe;
 }
 #navbar-main{
@@ -47,6 +52,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #18392e;
 }
 
 .sticky + .content {
