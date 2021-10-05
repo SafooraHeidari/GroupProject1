@@ -2,11 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Details</title>
+    <link rel="stylesheet" href="css/slider-teashop.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sticky-menu.css"/>
     <link rel="stylesheet" href="css/Description-details.css"/>
+    <link rel="stylesheet" href="css/products-details.css"/>
 </head>
 <body>
 
+<div class="slider-teashop">
+    <div id="navbar" class="et_fixed_nav">
+        <div id="navbar-main">
+            <img class="logo" src="images/tea4.png"/>
+            <a class="active" href="javascript:void(0)">Home</a>
+            <a href="javascript:void(0)">Tea shop</a>
+            <a href="javascript:void(0)">Details</a>
+            <a href="javascript:void(0)">About us</a>
+            <a href="javascript:void(0)">Contact</a>
+            <a href="javascript:void(0)">Buy now</a>
+            <i class="icon-bag-fine"></i>
+        </div>
+    </div>
+    <di class="view-text">
+        <h1>
+            View our<br>tea selections
+        </h1>
+    </di>
+</div>
 <!-- Tab links -->
 <div class="tab">
     <button class="tab-links" id = "default-open" onclick="openTab(event, 'Description')">Description</button>
@@ -61,11 +84,18 @@
     </table>
 </div>
 
-
 <div class="Teashop-container">
-    <div class = "content-title">Choose your flavour and shop now</div>
+    <div>Related Products</div>
 
     <div class = "gallery">
+        <div>
+            <div class="album product-7">
+                <img class = "product--image" src="images/tea4-shop-pic7.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Pulvinar massa</a></div>
+            <div class="product--price">&#163 18.00</div>
+        </div>
+
         <div>
             <div class="album product-1">
                 <img class = "product--image" src="images/tea4-shop-pic1.jpg"/>
@@ -75,24 +105,16 @@
         </div>
 
         <div>
-            <div class="album product-2">
-                <img class = "product--image" src="images/tea4-shop-pic2.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Cras consectetuer</a></div>
-            <div class="product--price">&#163 2.00</div>
-        </div>
-
-        <div>
             <div class="album product-3">
                 <img class = "product--image" src="images/tea4-shop-pic3.jpg"/>
             </div>
             <div class="product--name"><a href="">Dapibus quam</a></div>
             <div class="product--price">&#163 3.00</div>
         </div>
-
     </div>
 
 </div>
+
 
 
 <script src="js/Description-details.js"></script>

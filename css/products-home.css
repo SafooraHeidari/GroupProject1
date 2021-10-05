@@ -60,25 +60,6 @@
     margin: auto;
     box-shadow: 8px 8px 20px black;
 }
-
-.product-1{
-    background-color: #262628;
-}
-.product-2{
-    background-color: #bababc;
-}
-.product-3{
-    background-color: #6a2528;
-}
-.product-4{
-    background-color: #274649;
-}
-.product-5{
-    background-color: #392338;
-}
-.product-6{
-    background-color: #aeabbe;
-}
 .btn__style{
     /*color: var(--btn-color);*/
     background-color: rgba(219,221,226,0);
@@ -100,7 +81,7 @@
     margin-top: 100px;
     text-align: center;
 }
-img:hover{
+.product--image:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
 }
