@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color: #208222;
+    --btn-color: #144e1c;
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Lora', serif;
+    --font3: 'Roboto', sans-serif;
+}
+.slider-teashop{
+    height: 545px;
+    background-color: #34622b;
+    background-image: url("images/pattern slider.png");
+}
+.view-text{
+    margin: 0 auto;
+}
+.view-text h1{
+    font-family: var(--font2);
+    color: #eee1ed;
+    text-align: center;
+    width: 100%;
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 240px 0 0;
+    margin: 0 auto;
+}
+ajhsjklK.S
