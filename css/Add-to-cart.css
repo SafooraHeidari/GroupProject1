@@ -121,7 +121,7 @@ dl > dd:after {
     overflow: hidden;
 }
 .product-pic:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .product {
     width: 100%;
@@ -130,6 +130,7 @@ dl > dd:after {
 .detail-product {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .product-name {
@@ -162,7 +163,7 @@ p.price {
 }
 
 input.input-text {
-    max-width: 70px;
+    min-width: 70px;
     height: 42px;
     text-align: center;
     color: #8da681;
@@ -225,4 +226,10 @@ img.emoji {
     background: none;
     padding: 3px;
     margin: 1px;
+}
+.post{
+    font-family: var(--font3);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
 }

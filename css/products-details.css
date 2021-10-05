@@ -3,18 +3,19 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
 
 /*color: #1e3b1a;*/
-@import url('global.css');
 
 .Teashop-container{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.Teashop-container div:first-of-type{
+.Teashop-container p{
     font-family: var(--font2);
     font-size: 21px;
     line-height: 25px;
     font-weight: 300;
+    margin-left: 190px;
     color: var(--btn-color);
+
 }
 .product--price{
     color: var(--btn-color);
