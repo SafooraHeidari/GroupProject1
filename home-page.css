@@ -3,13 +3,8 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
 
 /*color: #1e3b1a;*/
-:root{
-    --primary-color: #208222;
-    --btn-color: #144e1c;
-    --font1: 'Poppins', sans-serif;
-    --font2: 'Lora', serif;
-    --font3: 'Roboto', sans-serif;
-}
+@import url('global.css');
+
 body{
     background-color: #e8ebe9;
 }
