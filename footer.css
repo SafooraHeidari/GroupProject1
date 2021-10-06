@@ -54,3 +54,63 @@
     width: 250px;
     margin: 77px 0px 77px 130px;
 }
+.contant{
+    font-size: 27px ;
+    margin-bottom: 60px;
+}
+.h-5{
+    float: left;
+    font-size:27px ;
+    color:darkgreen;
+    margin: 41px 120px 0px 120px;
+}
+.box-3{
+    float: left;
+    font-size:27px ;
+    color:darkgreen;
+    margin: 41px 70px 0px -10px;
+}
+.h-4{
+    float: left;
+    font-size:18px ;
+    color:darkgreen;
+    width: 255px;
+}
+.h-6{
+    float: left;
+    font-size:18px ;
+    color:darkgreen;
+    width: 255px;
+}
+.h-7{
+    float: left;
+    font-size:18px ;
+    color:darkgreen;
+    width: 255px;
+    margin: 41px 70px -37px 0px;
+}
+.h-8{
+    float: left;
+    font-size:18px ;
+    color:darkgreen;
+    width: 255px;
+    margin: -22px 68px 36px 0px;
+}
+.icon-logo{
+    float: left;
+    margin: 78px 21px 45px 230px;
+}
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: nowrap;
+}
+.flex-container-c {
+    display: flex;
+//   background-color: white;
+    flex-direction: column;
+    color: darkgreen;
+    font-size: 18px;
+    width: 250px;
+    margin: 77px 0px 77px 130px;
+}
