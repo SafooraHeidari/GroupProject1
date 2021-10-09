@@ -1,78 +1,31 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
-
-/*color: #1e3b1a;*/
-@import url('global.css');
-
-.Teashop-container{
+.Teashop--container {
     padding-top: 30px;
-    padding-bottom: 60px;
 }
-#sorting{
+
+#sorting {
     float: right;
     padding: 10px;
     font-family: var(--font3);
     font-size: 14px;
     min-width: 200px;
     color: #8da681;
-    background-color: rgba(21,46,19,0);
+    background-color: rgba(21, 46, 19, 0);
     border-color: #8da681;
     margin: 20px;
 }
-.product--price{
-    color: var(--btn-color);
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    font-family:var(--font3);
-    margin-left: 28px;
-}
-.product--name{
-    margin-left: 28px;
-}
-.product--name a{
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    color: var(--btn-color);
-    font-family: var(--font2);
-}
 
-.shop-filter{
+.shop-filter {
     background-image: url("../images/stripes_5_b.png");
     margin: auto;
     font-family: var(--font3);
     width: 1080px;
-    height:80px;
+    height: 80px;
 }
-.shop-filter p{
+
+.shop-filter p {
+    font-size: 15px;
     padding: 10px 10px;
     display: inline-block;
 }
-.gallery{
-    width: 80vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
-}
 
-.album{
-    width: 300px;
-    height: 258px;
-    margin: 2rem 2rem;
-    display: flex;
-}
-.product--image{
-    align-self: center;
-    margin: auto;
-    box-shadow: 8px 8px 20px black;
-}
-.product--image:hover{
-    transform: scale(1.1);
-    transition: transform 0.3s;
-}
+

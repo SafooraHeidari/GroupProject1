@@ -1,35 +1,7 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
-
-/*color: #1e3b1a;*/
-@import url('global.css');
-
-.Teashop-container{
+.home--container{
     background-color: #e8ebe9;
     padding-top: 60px;
-    padding-bottom: 60px;
 }
-.product--price{
-    color: var(--btn-color);
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    font-family:var(--font3);
-    margin-left: 28px;
-}
-.product--name{
-    margin-left: 28px;
-}
-.product--name a{
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    color: var(--btn-color);
-    font-family: var(--font2);
-}
-
 .content-title{
     text-align: center;
     color: var(--btn-color);
@@ -39,49 +11,7 @@
     font-weight: 300;
     margin-bottom: 20px;
 }
-.gallery{
-    width: 80vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
-}
-
-.album{
-    width: 300px;
-    height: 258px;
-    margin: 2rem 2rem;
-    display: flex;
-}
-.product--image{
-    align-self: center;
-    margin: auto;
-    box-shadow: 8px 8px 20px black;
-}
-.btn__style{
-    /*color: var(--btn-color);*/
-    background-color: rgba(219,221,226,0);
-    border-color: var(--btn-color);
-    font-family: var(--font1);
-    font-size: 15px;
-    line-height: 15px;
-    font-weight: 500;
-    letter-spacing: 4px;
-    padding: 15px 35px;
-    border-width: 2px;
-    border-radius: 0px;
-}
-.btn__style a{
-    text-decoration: none;
-    color: var(--btn-color);
-}
 .btn--position{
     margin-top: 100px;
     text-align: center;
-}
-.product--image:hover{
-    transform: scale(1.1);
-    transition: transform 0.3s;
 }

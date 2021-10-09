@@ -40,6 +40,9 @@
     border-color: #208222;
     color: #208222;
 }
+.integrated-container p{
+    font-size: 15px;
+}
 
 .integrated-image{
     grid-area: image;

@@ -1,20 +1,21 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family:"Lora";
 }
-.bgimg-1 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.caption{
+    font-family: var(--font2);
 
 }
 .bgimg-1 {
     background-image: url("../images/tea-slider-bg.jpg");
     min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .caption {
     position: absolute;
     left: 0;
@@ -27,9 +28,10 @@ body, html {
     position: relative;
     height: 69px;
     width: 74px;
+
 }
-.caption h1.border {
-    font-family: Lora;
+.border {
+    font-family: var(--font2);
     background-color: transparent;
     color: #fff;
     font-size: 3.1rem;
@@ -58,7 +60,7 @@ body, html {
 }
 @media only screen and (max-width: 597px) {
 
-    .caption h1.border{
+    .border{
         font-size: 20px;
         width: 67%;
     }
@@ -71,7 +73,7 @@ body, html {
     }
 }
 @media only screen and (min-width: 597px) and (max-width:1024px){
-    .caption h1.border{
+    .border{
         font-size: 20px;
         width: 35%;
     }

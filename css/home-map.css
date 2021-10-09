@@ -1,0 +1,213 @@
+
+
+h2, h1, h3 {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/*.btn__style {*/
+/*    color: var(--btn-color);*/
+/*    background-color: rgba(219, 221, 226, 0);*/
+/*    border-color: #144e1c;*/
+/*    font-family: var(--font1);*/
+/*    font-size: 15px;*/
+/*    line-height: 15px;*/
+/*    font-weight: 500;*/
+/*    letter-spacing: 4px;*/
+/*    padding: 15px 35px;*/
+/*    border-width: 2px;*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.btn__secondary {*/
+/*    border-color: var(--btn-color);*/
+/*}*/
+
+/*.btn__style a {*/
+/*    text-decoration: none;*/
+/*    color: var(--btn-color);*/
+/*}*/
+/*.line-image{*/
+/*    padding: 0 5% 0 80px;*/
+/*}*/
+/*.bg-map{*/
+/*    padding: 0 5% 0 80px;*/
+/*}*/
+.bg-map{
+    background-image: url("../images/map-bg.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5% 0 80px;
+}
+.text-align{
+    text-align: center;
+    margin-top: -50px;
+    position: absolute;
+    width: 85%;
+}
+.container{
+    padding: 20px 0 90px;
+    display: flex;
+    flex-direction: row;
+}
+.img-home {
+    padding-top: 30px;
+    width: 90%;
+}
+
+.explain-map {
+    padding: 0 3%;
+    width: 22.33%;
+}
+
+.title-map {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.text-map {
+    color: #144e1c;
+    padding: 10px 37px;
+    font-size: 15px;
+    font-family: var(--font1);
+    font-weight: 300;
+    line-height: 22px;
+    white-space: pre-line;
+    width: 275px;
+}
+
+.bg-slide {
+    background-image: url("../images/map-bg.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    flex-direction: row;
+    padding-bottom: 90px;
+}
+
+.main-section {
+    margin: 0 auto;
+    width: 1047px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.section-wrapper{
+    padding-bottom: 80px;
+    width: 48%;
+}
+.section-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.section-slide img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.section-slide:hover img {
+    transition: all .3s ease-in-out;
+}
+
+.section-slide:hover .overlay{
+    opacity: 1;
+}
+/*.section-wrapper:hover .overlay{*/
+/*    transform: scale(1.15);*/
+/*    transition: all .3s ease-in-out;*/
+/*}*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #34622bcc;
+}
+.flag-img {
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-slide1 h3,.text-slide2 h3 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+    padding-top: 11px;
+}
+
+@media (max-width: 479px) {
+    h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .text-align{
+        width: 50%;
+    }
+    .bg-map{
+        padding: 0 5% 0;
+    }
+    .img-home {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .explain-map{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .text-map{
+        font-size: 13px;
+        width: 233px;
+    }
+    .title-map{
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+    .section-slide, .comments {
+        text-align: center;
+        flex-direction: column;
+    }
+    .text-slide1 h3,.text-slide2 h3{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .section-wrapper {
+        padding-bottom: 20px;
+        width: 87%;
+        margin: auto;
+    }
+    .section-slide img{
+        width: 100%;
+    }
+    .main-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: inherit;
+        padding-right: 5%;
+        width: 100%;
+    }
+}

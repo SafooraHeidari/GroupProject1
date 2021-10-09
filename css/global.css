@@ -1,43 +1,13 @@
-:root{
-    --primary-color: #208222;
-    --btn-color: #144e1c;
-    --font1: 'Poppins', sans-serif;
-    --font2: 'Lora', serif;
-    --font3: 'Roboto', sans-serif;
-    --p-color: #34622b;
-}
-p, span, a {
-    color: var(--p-color);
-    font-family: var(--font3);
-    font-size: 16px;
-    line-height: 35px;
-    font-weight: 300;
-}
-
-.product-7{
-    background-color: #a08870;
-}
-.product-8{
-    background-color: #365d2e;
-}
-.product-9{
-    background-color: #c8a2af;
-}
-.product-1{
-    background-color: #262628;
-}
-.product-2{
-    background-color: #bababc;
-}
-.product-3{
-    background-color: #6a2528;
-}
-.product-4{
-    background-color: #274649;
-}
-.product-5{
-    background-color: #392338;
-}
-.product-6{
-    background-color: #aeabbe;
-}
+@import "Add-to-cart.css";
+@import "base.css";
+@import "Description-details.css";
+@import "home-ingredient.css";
+@import "products.css";
+@import "products-details.css";
+@import "products-home.css";
+@import "products-teashop.css";
+@import "slider.css";
+@import "slider-teashop.css";
+@import "sticky-menu.css";
+@import "icons.css";
+@import "home-map.css";
