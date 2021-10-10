@@ -162,9 +162,9 @@ strong {
         font-size: 14px;
         line-height: 20px;
     }
-    .text-align{
-        width: 50%;
-    }
+    /*.text-align{*/
+    /*    width: 50%;*/
+    /*}*/
     .bg-map{
         padding: 0 5% 0;
     }
