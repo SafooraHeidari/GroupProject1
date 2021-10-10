@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: nowrap;
+}
+.flex-container-c {
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    font-size: 18px;
+    width: 250px;
+    margin: 77px 0px 77px 130px;
+}
+.icon-logo{
+    float: left;
+    margin: 78px 21px 45px 230px;
+}
+.contant{
+    font-size: 27px ;
+    margin-bottom: 60px;
+}
