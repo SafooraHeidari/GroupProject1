@@ -49,7 +49,6 @@
     font-family: var(--font3);
     font-size: 15px;
     line-height: 25px;
-    /*font-weight: 300;*/
     color: var(--btn-color);
     padding-left: 40px;
 }
@@ -57,7 +56,6 @@
     font-family: var(--font3);
     font-size: 15px;
     line-height: 25px;
-    /*font-weight: 300;*/
     color: var(--btn-color);
     padding-left: 40px;
 }
@@ -70,6 +68,10 @@
 #Additional-info table{
     width: 1200px;
     margin: auto;
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--btn-color);
 }
 #Additional-info table th{
     width: 150px;
@@ -80,6 +82,9 @@
 #Additional-info table td{
     width: 950px;
     text-align: center;
+}
+#Description{
+    margin-bottom: 50px;
 }
 
 @media (max-width: 360px){

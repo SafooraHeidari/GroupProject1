@@ -97,7 +97,9 @@ h1.single-pro {
     margin-top: 0;
     font-family: var(--font3);
     padding-top: 40px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
 }
 
 p.price {
