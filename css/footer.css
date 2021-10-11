@@ -1,0 +1,102 @@
+.footer--container{
+    display: grid;
+    width: 100vw;
+    grid-template: 75fr 25fr / 40fr 20fr 40fr;
+    grid-template-areas: "footer--logo footer--contact footer--localization"
+                         "footer--copy-right footer--copy-right footer--page-up";
+    background-color: #e3e6e4;
+    padding-top: 100px;
+}
+.footer--logo{
+    grid-area: footer--logo;
+    margin: auto;
+}
+.footer--contact{
+    grid-area: footer--contact;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+.footer--localization{
+    grid-area: footer--localization;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+.footer--title{
+    font-family: var(--font2);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--btn-color);
+    margin-bottom: 50px;
+}
+.footer--text{
+    font-family: var(--font1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+    color: var(--btn-color);
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer--copy-right{
+    grid-area: footer--copy-right;
+    margin-top: 40px;
+}
+.footer--icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+#copy-right--text{
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: var(--btn-color);
+    display: inline-block;
+    vertical-align: middle
+}
+
+@media (max-width: 360px){
+    .footer--container{
+        display: grid;
+        width: 100vw;
+        grid-template: 25fr 25fr 25fr 25fr / 1fr;
+        grid-template-areas: "footer--logo"
+                             "footer--contact"
+                             "footer--localization"
+                             "footer--copy-right";
+        background-color: #e3e6e4;
+        padding-top: 50px;
+    }
+
+    .footer--title{
+        font-family: var(--font2);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    .footer--text{
+        font-family: var(--font1);
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    #copy-right--text{
+        font-family: var(--font3);
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 19px;
+        display: inline-block;
+        vertical-align: middle
+    }
+    .footer--copy-right{
+        grid-area: footer--copy-right;
+        margin: auto;
+        width: 290px;
+    }
+}
