@@ -18,12 +18,12 @@
 }
 .gallery{
     width: 80vw;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    padding-bottom: 50px;
 }
 .album{
     width: 300px;
@@ -39,7 +39,4 @@
 .product--image:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
-}
-.Teashop-container{
-    padding-bottom: 60px;
 }

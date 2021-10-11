@@ -1,20 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap');*/
-
-/*color: #1e3b1a;*/
-
-.detail--container{
-    padding-top: 60px;
-}
-/*.Teashop-container p{*/
-/*    font-family: var(--font2);*/
-/*    font-size: 21px;*/
-/*    line-height: 25px;*/
-/*    font-weight: 300;*/
-/*    margin-left: 190px;*/
-/*    color: var(--btn-color);*/
-/*}*/
 .content-title{
     text-align: center;
     color: var(--btn-color);
