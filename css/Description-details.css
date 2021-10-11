@@ -136,5 +136,8 @@
     .Teashop-container--p{
         margin-left: 20px;
     }
+    #Additional-info table{
+        width: 300px;
+    }
 
 }

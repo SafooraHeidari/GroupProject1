@@ -1,0 +1,44 @@
+.main-icon-detail {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.icon-home-detail {
+    padding: 7px 120px;
+    margin: 20px 0;
+    border-left: 1px solid #ebebeb;
+
+}
+.border-hidden{
+    border-left: hidden;
+}
+.flex-icon-detail {
+    text-align: center;
+}
+
+.title-icon,.explain-icon {
+    color: #ac8b69;
+    font-family: var(--font1);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+@media (max-width:479px) {
+    .main-icon-detail{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .icon-home-detail {
+        padding: 0px;
+    }
+    .title-icon,.explain-icon{
+        text-align: center;
+    }
+}
