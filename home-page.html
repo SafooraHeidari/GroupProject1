@@ -14,249 +14,359 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/menu-burger.js"></script>
 
 </head>
 
 <body>
 
+<div id = "main--element">
+    <div id="bgimg-1">
 
-<div class="bgimg-1">
-    <!--Sticky menu-->
-    <div id="navbar" class="et_fixed_nav">
-        <div id="navbar-main">
-            <img class="logo" src="images/tea4.png"/>
-            <a class="active" href="javascript:void(0)">Home</a>
-            <a href="javascript:void(0)">Tea shop</a>
-            <a href="javascript:void(0)">Details</a>
-            <a href="javascript:void(0)">About us</a>
-            <a href="javascript:void(0)">Contact</a>
-            <a href="javascript:void(0)">Buy now</a>
-            <i class="icon-bag-fine"></i>
+        <!--Sticky menu-->
+        <div id="navbar">
+            <div id="navbar-main">
+                <img class="logo" src="images/tea4.png"/>
+                <a class="active" href="">Home</a>
+                <a href="">Tea shop</a>
+                <a href="">Details</a>
+                <a href="">About us</a>
+                <a href="">Contact</a>
+                <a href="">Buy now</a>
+                <span id="icons">
+                <span class="bag-shop-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                 width="24" height="24"
+                                                 viewBox="0 0 172 172"
+                                                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none"
+                                                                           stroke-width="1" stroke-linecap="butt"
+                                                                           stroke-linejoin="miter"
+                                                                           stroke-miterlimit="10"
+                                                                           stroke-dasharray="" stroke-dashoffset="0"
+                                                                           font-family="none" font-weight="none"
+                                                                           font-size="none" text-anchor="none"
+                                                                           style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path d="M82.41667,7.16667c-16.53604,0 -30.24445,12.59212 -32.04004,28.66667h-7.37663c-8.28467,0 -15.18102,6.21064 -16.04102,14.45231l-8.95833,86c-0.473,4.53292 1.00624,9.07826 4.05924,12.47168c3.053,3.38625 7.42377,5.32601 11.98177,5.32601h103.91667c4.558,0 8.92877,-1.93976 11.98177,-5.32601c3.053,-3.38983 4.52524,-7.93876 4.05224,-12.47168l-8.95134,-86c-0.86,-8.24167 -7.75635,-14.45231 -16.04101,-14.45231h-7.33464c0.11108,1.1825 0.16797,2.37933 0.16797,3.58333v7.16667h7.16667c2.76275,0 5.06034,2.07369 5.34701,4.8221l8.95833,86c0.15766,1.51217 -0.33667,3.02506 -1.35075,4.15023c-1.01767,1.12875 -2.47692,1.77767 -3.99626,1.77767h-103.91667c-1.51933,0 -2.97517,-0.64551 -3.98926,-1.77067c-1.01767,-1.12875 -1.51541,-2.64506 -1.35775,-4.15723l8.95833,-86c0.28667,-2.74842 2.58426,-4.8221 5.34701,-4.8221h7.16667v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-11.93709 9.56291,-21.5 21.5,-21.5c10.71331,0 19.49313,7.70805 21.18506,17.91667h-35.04248c-0.301,1.14667 -0.47591,2.3435 -0.47591,3.58333v7.16667h35.83333v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-17.74724 -14.50276,-32.25 -32.25,-32.25z"></path>
+                    </g>
+                </g>
+            </svg></span>
+
+
+            <span class="menu-icon" onclick="openMenu()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                              width="24" height="24"
+                                                              viewBox="0 0 226 226"
+                                                              style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none"
+                                                                                        stroke-width="1" stroke-linecap="butt"
+                                                                                        stroke-linejoin="miter" stroke-miterlimit="10"
+                                                                                        stroke-dasharray="" stroke-dashoffset="0"
+                                                                                        font-family="none" font-weight="none"
+                                                                                        font-size="none" text-anchor="none"
+                                                                                        style="mix-blend-mode: normal"><path
+                    d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path
+                    d="M18.83333,47.08333v18.83333h188.33333v-18.83333zM18.83333,103.58333v18.83333h188.33333v-18.83333zM18.83333,160.08333v18.83333h188.33333v-18.83333z"></path></g></g></svg></span>
+
+            </span>
+
+            </div>
+        </div>
+
+
+        <!--    Mobile menu burger-->
+        <div id="navbar--mobile">
+            <div id="navbar-main--mobile">
+                <table>
+                    <tr id="close--icon" onclick="closeMenu()">
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 width="24" height="24"
+                                 viewBox="0 0 172 172"
+                                 style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                   font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                   style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path d="M40.90039,30.76628l-10.13411,10.13411l45.09961,45.09961l-45.09961,45.09961l10.13411,10.13411l45.09961,-45.09961l45.09961,45.09961l10.13411,-10.13411l-45.09961,-45.09961l45.09961,-45.09961l-10.13411,-10.13411l-45.09961,45.09961z"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr id = "bag-shop-menu-burger">
+                        <td><span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                       width="24" height="24"
+                                       viewBox="0 0 172 172"
+                                       style=" fill:#000000;"><g fill="none" fill-rule="nonzero"
+                                                                 stroke="none"
+                                                                 stroke-width="1"
+                                                                 stroke-linecap="butt"
+                                                                 stroke-linejoin="miter"
+                                                                 stroke-miterlimit="10"
+                                                                 stroke-dasharray=""
+                                                                 stroke-dashoffset="0"
+                                                                 font-family="none" font-weight="none"
+                                                                 font-size="none" text-anchor="none"
+                                                                 style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path d="M82.41667,7.16667c-16.53604,0 -30.24445,12.59212 -32.04004,28.66667h-7.37663c-8.28467,0 -15.18102,6.21064 -16.04102,14.45231l-8.95833,86c-0.473,4.53292 1.00624,9.07826 4.05924,12.47168c3.053,3.38625 7.42377,5.32601 11.98177,5.32601h103.91667c4.558,0 8.92877,-1.93976 11.98177,-5.32601c3.053,-3.38983 4.52524,-7.93876 4.05224,-12.47168l-8.95134,-86c-0.86,-8.24167 -7.75635,-14.45231 -16.04101,-14.45231h-7.33464c0.11108,1.1825 0.16797,2.37933 0.16797,3.58333v7.16667h7.16667c2.76275,0 5.06034,2.07369 5.34701,4.8221l8.95833,86c0.15766,1.51217 -0.33667,3.02506 -1.35075,4.15023c-1.01767,1.12875 -2.47692,1.77767 -3.99626,1.77767h-103.91667c-1.51933,0 -2.97517,-0.64551 -3.98926,-1.77067c-1.01767,-1.12875 -1.51541,-2.64506 -1.35775,-4.15723l8.95833,-86c0.28667,-2.74842 2.58426,-4.8221 5.34701,-4.8221h7.16667v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-11.93709 9.56291,-21.5 21.5,-21.5c10.71331,0 19.49313,7.70805 21.18506,17.91667h-35.04248c-0.301,1.14667 -0.47591,2.3435 -0.47591,3.58333v7.16667h35.83333v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-17.74724 -14.50276,-32.25 -32.25,-32.25z"></path>
+                    </g>
+                </g>
+            </svg></span></td>
+                    </tr>
+                    <tr>
+                        <td>Home</td>
+                    </tr>
+                    <tr>
+                        <td>Tea shop</td>
+                    </tr>
+                    <tr>
+                        <td>Details</td>
+                    </tr>
+                    <tr>
+                        <td>About us</td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td>
+                    </tr>
+                    <tr>
+                        <td>Buy now</td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+
+        <!--Slider-->
+        <div class="caption">
+            <div>
+                <img class="logo-slider animate__animated animate__fadeInDown" src="images/slider-logo.png">
+            </div>
+            <div class="show-s animate__animated animate__fadeInUp">
+                <h1 class="border">Special quality tea <br>from furthest places around the world</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nulla, pariatur? Alias consequuntur,
+                    eos
+                    impedit nihil omnis reiciendis.</p>
+            </div>
+
         </div>
     </div>
-    <!--Slider-->
-    <div class="caption">
-        <div>
-            <img class="logo-slider animate__animated animate__fadeInDown" src="images/slider-logo.png">
-        </div>
-        <div class="show-s animate__animated animate__fadeInUp">
-            <h1 class="border">Special quality tea <br>from furthest places around the world</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nulla, pariatur? Alias consequuntur,
-                eos
-                impedit nihil omnis reiciendis.</p>
+
+    <!--home-map-->
+
+    <div class="bg-map">
+        <div class="text-align">
+            <div>
+                <img src="images/line-image.png" alt="line">
+            </div>
         </div>
 
     </div>
-</div>
+    <div class="bg-map">
+        <div class="container">
+            <div class="map-home">
+                <img class="img-home" src="images/map-home.png" alt="map-home">
+            </div>
+            <div class="explain-map">
+                <h1 class="title-map">
+                    Special quality tea from furthest places around the world
+                </h1>
+                <p class="text-map">
+                    <strong>Sed ultrices nisl velit</strong> , eu ornare est ullamcorper a. Nunc quis nibh magna. Proin
+                    risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula
+                    velit sodales vitae. Mauris mollis lobortis turpis, eget accumsan ante.
+                </p>
+                <div>
+                    <hr style="margin:0 auto 20px auto;border: aqua;">
+                </div>
+                <div class="btn__secondary btn--position">
+                    <button class="btn__style btn_style"><a href="">LEARN MORE</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="line-image"></div>
+        <div class="main-section">
+            <div class="section-wrapper">
+                <div class="section-slide">
+                    <img src="images/slide1.jpg" alt="slider">
+                    <div class="overlay">
+                        <div class="flag-img">
+                            <img src="images/hover-slide1.png" alt="flag-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="comments">
+                    <div class="text-slide1">
+                        <h3>
+                            India loream ustend quanti eleviri matrole porten elevare mintro
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-slide">
+                    <img class="hov" src="images/slide2.jpg" alt="slider">
+                    <div class="overlay">
+                        <div class="flag-img">
+                            <img src="images/hover-slide2.png" alt="flag-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="comments">
+                    <div class="text-slide2">
+                        <h3>
+                            China mir vel trira qwuanto metro tirael vi pestro mon
+                        </h3>
+                    </div>
+                </div>
+            </div>
 
-<!--home-map-->
-
-<div class="bg-map">
-    <div class="text-align">
-        <div>
-            <img src="images/line-image.png" alt="line">
         </div>
     </div>
 
-</div>
-<div class="bg-map">
-    <div class="container">
-        <div class="map-home">
-            <img class="img-home" src="images/map-home.png" alt="map-home">
+
+    <!--Choose your flavour and shop now-->
+
+    <div class="Teashop-container home--container">
+        <div class="content-title">Choose your flavour and shop now</div>
+
+        <div class="gallery">
+            <div>
+                <div class="album product-1">
+                    <img class="product--image" src="images/tea4-shop-pic1.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Aliquam interdum</a></div>
+                <div class="product--price">&#163 1.00</div>
+            </div>
+
+            <div>
+                <div class="album product-2">
+                    <img class="product--image" src="images/tea4-shop-pic2.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Cras consectetuer</a></div>
+                <div class="product--price">&#163 2.00</div>
+            </div>
+
+            <div>
+                <div class="album product-3">
+                    <img class="product--image" src="images/tea4-shop-pic3.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Dapibus quam</a></div>
+                <div class="product--price">&#163 3.00</div>
+            </div>
+
+            <div>
+                <div class="album product-4">
+                    <img class="product--image" src="images/tea4-shop-pic4.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Donec nonummy</a></div>
+                <div class="product--price">&#163 15.00</div>
+            </div>
+
+            <div>
+                <div class="album product-5">
+                    <img class="product--image" src="images/tea4-shop-pic5.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Integer ornare</a></div>
+                <div class="product--price">&#163 8.00</div>
+            </div>
+
+            <div>
+                <div class="album product-6">
+                    <img class="product--image" src="images/tea4-shop-pic6.jpg"/>
+                </div>
+                <div class="product--name"><a href="">Nonummy sed</a></div>
+                <div class="product--price">&#163 4.00</div>
+            </div>
         </div>
-        <div class="explain-map">
-            <h1 class="title-map">
-                Special quality tea from furthest places around the world
-            </h1>
-            <p class="text-map">
-                <strong>Sed ultrices nisl velit</strong> , eu ornare est ullamcorper a. Nunc quis nibh magna. Proin
-                risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula
-                velit sodales vitae. Mauris mollis lobortis turpis, eget accumsan ante.
+
+        <div class="btn--position">
+            <button class="btn__style"><a href="">VIEW MORE</a></button>
+        </div>
+    </div>
+
+    <!--icons-->
+    <div class="container-icon">
+        <div class="main-icon">
+            <div class="flex-icon title-icon">
+                <h3 class="sentence">
+                    Choose your flavour and shop now
+                </h3>
+            </div>
+            <div class="icon-home">
+                <div class="flex-icon">
+                    <img src="images/tea4-details-icon1.png" alt="">
+                </div>
+                <div>
+                    <h5 class="explain-icon">
+                        Magna<br>pharetra
+                    </h5>
+                </div>
+            </div>
+            <div class="icon-home">
+                <div class="flex-icon">
+                    <img src="images/tea4-details-icon2.png" alt="">
+                </div>
+                <div>
+                    <h5 class="explain-icon">
+                        Curabitur<br>iaculis
+                    </h5>
+                </div>
+            </div>
+            <div class="icon-home">
+                <div class="flex-icon">
+                    <img src="images/tea4-details-icon3.png" alt="">
+                </div>
+                <div>
+                    <h5 class="explain-icon">
+                        Maecenas <br>imperdiet
+                    </h5>
+                </div>
+            </div>
+            <div class="icon-home">
+                <div class="flex-icon">
+                    <img src="images/tea4-details-icon4.png" alt="">
+                </div>
+                <div>
+                    <h5 class="explain-icon">
+                        Varius<br>natoque
+                    </h5>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--ingredients-->
+
+    <div class="integrated-container">
+
+        <div class="integrated-description">
+            <h2>
+                Best ingredients picked specially for our clients from the best plantations over the world
+            </h2>
+            <p>
+                <strong>Fusce ut velit laoreet</strong>, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+                lorem eget, egestas
+                eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna. Suspendisse vel facilisis odio, at
+                ornare nibh. In malesuada, tortor eget sodales mollis.
             </p>
-            <div>
-                <hr style="margin:0 auto 20px auto;border: aqua;">
-            </div>
-            <div class="btn__secondary btn--position">
-                <button class="btn__style btn_style"><a href="">LEARN MORE</a></button>
-            </div>
+            <a class="integrated-button" href="https://themes.muffingroup.com/be/tea4/about-us/">
+                Learn More
+            </a>
         </div>
-    </div>
-    <div class="line-image"></div>
-    <div class="main-section">
-        <div class="section-wrapper">
-            <div class="section-slide">
-                <img src="images/slide1.jpg" alt="slider">
-                <div class="overlay">
-                    <div class="flag-img">
-                        <img src="images/hover-slide1.png" alt="flag-img">
-                    </div>
-                </div>
-            </div>
-            <div class="comments">
-                <div class="text-slide1">
-                    <h3>
-                        India loream ustend quanti eleviri matrole porten elevare mintro
-                    </h3>
-                </div>
-            </div>
-        </div>
-        <div class="section-wrapper">
-            <div class="section-slide">
-                <img class="hov" src="images/slide2.jpg" alt="slider">
-                <div class="overlay">
-                    <div class="flag-img">
-                        <img src="images/hover-slide2.png" alt="flag-img">
-                    </div>
-                </div>
-            </div>
-            <div class="comments">
-                <div class="text-slide2">
-                    <h3>
-                        China mir vel trira qwuanto metro tirael vi pestro mon
-                    </h3>
-                </div>
-            </div>
-        </div>
+
+        <div class="integrated-image"></div>
 
     </div>
-</div>
-
-
-<!--Choose your flavour and shop now-->
-
-<div class="Teashop-container home--container">
-    <div class="content-title">Choose your flavour and shop now</div>
-
-    <div class="gallery">
-        <div>
-            <div class="album product-1">
-                <img class="product--image" src="images/tea4-shop-pic1.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Aliquam interdum</a></div>
-            <div class="product--price">&#163 1.00</div>
-        </div>
-
-        <div>
-            <div class="album product-2">
-                <img class="product--image" src="images/tea4-shop-pic2.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Cras consectetuer</a></div>
-            <div class="product--price">&#163 2.00</div>
-        </div>
-
-        <div>
-            <div class="album product-3">
-                <img class="product--image" src="images/tea4-shop-pic3.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Dapibus quam</a></div>
-            <div class="product--price">&#163 3.00</div>
-        </div>
-
-        <div>
-            <div class="album product-4">
-                <img class="product--image" src="images/tea4-shop-pic4.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Donec nonummy</a></div>
-            <div class="product--price">&#163 15.00</div>
-        </div>
-
-        <div>
-            <div class="album product-5">
-                <img class="product--image" src="images/tea4-shop-pic5.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Integer ornare</a></div>
-            <div class="product--price">&#163 8.00</div>
-        </div>
-
-        <div>
-            <div class="album product-6">
-                <img class="product--image" src="images/tea4-shop-pic6.jpg"/>
-            </div>
-            <div class="product--name"><a href="">Nonummy sed</a></div>
-            <div class="product--price">&#163 4.00</div>
-        </div>
-    </div>
-
-    <div class="btn--position">
-        <button class="btn__style"><a href="">VIEW MORE</a></button>
-    </div>
-</div>
-
-<!--icons-->
-<div class="container-icon">
-    <div class="main-icon">
-        <div class="flex-icon title-icon">
-            <h3 class="sentence">
-                Choose your flavour and shop now
-            </h3>
-        </div>
-        <div class="icon-home">
-            <div class="flex-icon">
-                <img src="images/tea4-details-icon1.png" alt="">
-            </div>
-            <div>
-                <h5 class="explain-icon">
-                    Magna<br>pharetra
-                </h5>
-            </div>
-        </div>
-        <div class="icon-home">
-            <div class="flex-icon">
-                <img src="images/tea4-details-icon2.png" alt="">
-            </div>
-            <div>
-                <h5 class="explain-icon">
-                    Curabitur<br>iaculis
-                </h5>
-            </div>
-        </div>
-        <div class="icon-home">
-            <div class="flex-icon">
-                <img src="images/tea4-details-icon3.png" alt="">
-            </div>
-            <div>
-                <h5 class="explain-icon">
-                    Maecenas <br>imperdiet
-                </h5>
-            </div>
-        </div>
-        <div class="icon-home">
-            <div class="flex-icon">
-                <img src="images/tea4-details-icon4.png" alt="">
-            </div>
-            <div>
-                <h5 class="explain-icon">
-                    Varius<br>natoque
-                </h5>
-            </div>
-        </div>
-
-
-    </div>
-</div>
-<!--ingredients-->
-
-<div class="integrated-container">
-
-    <div class="integrated-description">
-        <h2>
-            Best ingredients picked specially for our clients from the best plantations over the world
-        </h2>
-        <p>
-            <strong>Fusce ut velit laoreet</strong>, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
-            lorem eget, egestas
-            eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna. Suspendisse vel facilisis odio, at
-            ornare nibh. In malesuada, tortor eget sodales mollis.
-        </p>
-        <a class="integrated-button" href="https://themes.muffingroup.com/be/tea4/about-us/">
-            Learn More
-        </a>
-    </div>
-
-    <div class="integrated-image"></div>
 
 </div>
 
 <script src="js/sticky-menu.js"></script>
+<script src="js/menu-burger.js"></script>
 </body>
 </html>

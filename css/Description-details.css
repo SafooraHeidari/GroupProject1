@@ -50,13 +50,27 @@
     margin-bottom: 15px;
     margin-top: 100px;
 }
-p, table{
+.table--details{
     font-family: var(--font3);
     font-size: 15px;
     line-height: 25px;
     /*font-weight: 300;*/
     color: var(--btn-color);
     padding-left: 40px;
+}
+.main-container--p{
+    font-family: var(--font3);
+    font-size: 15px;
+    line-height: 25px;
+    /*font-weight: 300;*/
+    color: var(--btn-color);
+    padding-left: 40px;
+}
+.Teashop-container--p{
+    font-family: var(--font2);
+    font-size: 21px;
+    margin-left: 200px;
+    font-weight: 300;
 }
 #Additional-info table{
     width: 1200px;

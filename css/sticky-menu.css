@@ -5,7 +5,10 @@
     /*background-color: #18392e;*/
     height: 60px;
     opacity: 1;
-    z-index: 100;
+    z-index: 10;
+    display: fixed;
+    top: 0;
+    right: 0;
 }
 
 #navbar a {
@@ -43,6 +46,7 @@
 .sticky {
     position: fixed;
     top: 0;
+    right: 0;
     width: 100%;
     background-color: #18392e;
 }
@@ -56,4 +60,36 @@ p {
     height: 30px;
     padding-top: 15px;
     padding-right: 80px;
+}
+.menu-icon{
+    display: none;
+}
+.bag-shop-icon{
+    margin-top: 15px;
+    margin-left: 70px;
+    display: flex;
+}
+
+@media (max-width: 360px) {
+    #navbar-main a{
+        display: none;
+    }
+    /*.bag-shop-icon{*/
+    /*    margin-right: 20px;*/
+    /*}*/
+
+    .logo {
+        padding-left: 20px;
+    }
+    .menu-icon{
+        display: inline-block;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    #icons{
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
