@@ -48,7 +48,7 @@
     grid-area: image;
     background-image: url("../images/ingredient-image.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: 0 -13.5rem;
 }
 
