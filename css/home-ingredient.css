@@ -1,70 +1,87 @@
-.integrated-container {
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family:Lora;
+    src: url("../fonts/Lora-Regular.ttf");
+}
+.integrated--container {
     width: 100%;
-    height: 50rem;
+    height: 44rem;
     display: grid;
     grid-template: 1fr/1fr 1fr;
     grid-template-areas: "description image";
+    background-color: #e3e6e4;
 }
-.integrated-description {
+.integrated--description {
     grid-area: description;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #144e1c;
-    padding: 8.8rem;
+    padding:4.4rem 8.8rem;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
-.integrated-description p {
+.integrated--description p {
     padding: 0 0 3rem 2rem;
     font-weight: lighter;
+    line-height: 1.5rem;
 }
-.integrated-description h2 {
+.integrated--description h2 {
     font-size: 2.3rem;
     line-height: 2.8rem;
     font-weight: 300;
     letter-spacing: 0;
     font-family: "Lora", Helvetica, Arial, sans-serif;
 }
-.integrated-button {
+.integrated--button {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
     align-self: flex-start;
-    padding: 0.8rem 2rem;
+    padding: 0.9rem 2rem;
     color: #144e1c;
-    background-color: white;
     border: 2px solid #144e1c;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 4px;
-    font-weight: 400;
+    font-family: Poppins,sans-serif;
 }
-.integrated-button:hover{
+.integrated--button:hover{
+    background-color: white;
     border-color: #208222;
     color: #208222;
 }
 
-.integrated-image{
+.integrated--image{
     grid-area: image;
     background-image: url("../images/ingredient-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -13.5rem;
+    background-position: 0 -17rem;
 }
 
 @media screen and (max-width: 500px) {
-    .integrated-container{
-        grid-template: 1fr 2fr/1fr;
+    .integrated--container{
+        grid-template: 2fr 2fr/1fr;
         grid-template-areas:    "description"
                                 "image";
-        height: 100rem;
+        height: 69rem;
     }
-    .integrated-description{
-        padding: 2rem;
+    .integrated--description{
+        padding: 5rem 2rem;
         justify-content: space-around;
     }
-    .integrated-description h2 {
+    .integrated--description h2 {
         font-size: 1.3rem;
         line-height: 1.5rem;
     }
-    .integrated-description p {
+    .integrated--description p {
         font-size: 0.8rem;
+    }
+    .integrated--image {
+        background-position:center center;
+        background-size: contain;
     }
 }
