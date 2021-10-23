@@ -83,21 +83,29 @@
         grid-template: 2fr 2fr/1fr;
         grid-template-areas:    "left"
                                 "right";
-        height: 69rem;
+        height: 63rem;
     }
-    .integrated--description{
-        padding: 5rem 2rem;
+    .imper--container{
+        grid-template: 2fr 1fr/1fr;
+        grid-template-areas:    "left"
+                                "right";
+        height: 72rem;
+
+    }
+    .integrated--description, .imper--description{
+        padding: 5rem 1.5rem;
         justify-content: space-around;
     }
-    .integrated--description h2 {
+    .integrated--description h2, .imper--description h2 {
         font-size: 1.3rem;
         line-height: 1.5rem;
     }
-    .integrated--description p {
-        font-size: 0.8rem;
+    .integrated--description p, .imper--description p {
+        font-size: 0.85rem;
+        line-height: 1rem;
     }
-    .integrated--image {
+    .integrated--image, .imper--image {
         background-position:center center;
-        background-size: contain;
+        background-size: cover;
     }
 }
