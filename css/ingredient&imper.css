@@ -6,16 +6,18 @@
     font-family:Lora;
     src: url("../fonts/Lora-Regular.ttf");
 }
-.integrated--container {
+.integrated--container , .imper--container{
     width: 100%;
     height: 44rem;
     display: grid;
     grid-template: 1fr/1fr 1fr;
-    grid-template-areas: "description image";
+    grid-template-areas: "left right";
     background-color: #e3e6e4;
 }
-.integrated--description {
-    grid-area: description;
+.imper--container{
+    height: 48rem;
+}
+.integrated--description , .imper--description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,19 +25,25 @@
     padding:4.4rem 8.8rem;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
-.integrated--description p {
+.integrated--description {
+    grid-area: left;
+}
+.imper--description {
+    grid-area: right;
+}
+.integrated--description p , .imper--description p{
     padding: 0 0 3rem 2rem;
     font-weight: lighter;
     line-height: 1.5rem;
 }
-.integrated--description h2 {
+.integrated--description h2 , .imper--description h2 {
     font-size: 2.3rem;
     line-height: 2.8rem;
     font-weight: 300;
     letter-spacing: 0;
     font-family: "Lora", Helvetica, Arial, sans-serif;
 }
-.integrated--button {
+.integrated--button, .imper--button {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: 500;
@@ -48,25 +56,33 @@
     text-decoration: none;
     font-family: Poppins,sans-serif;
 }
-.integrated--button:hover{
+.integrated--button:hover, .integrated--button:hover{
     background-color: white;
     border-color: #208222;
     color: #208222;
 }
 
-.integrated--image{
-    grid-area: image;
-    background-image: url("../images/ingredient-image.jpg");
+.integrated--image , .imper--image {
     background-repeat: no-repeat;
     background-size: cover;
+}
+.integrated--image {
+    grid-area: right;
+    background-image: url("../images/ingredient-image.jpg");
     background-position: 0 -17rem;
+}
+
+.imper--image{
+    grid-area: left;
+    background-image: url("../images/imper-image.jpg");
+    background-position: 0 -14.4rem;
 }
 
 @media screen and (max-width: 500px) {
     .integrated--container{
         grid-template: 2fr 2fr/1fr;
-        grid-template-areas:    "description"
-                                "image";
+        grid-template-areas:    "left"
+                                "right";
         height: 69rem;
     }
     .integrated--description{
