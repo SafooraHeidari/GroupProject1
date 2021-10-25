@@ -8,6 +8,11 @@
     margin: auto;
     color: #34622b;
 }
+.map--title{
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+    transition: animation ease-out;
+}
 .map--title h5 ,.static--container div div ,.static--container div p {
     font-family: "Roboto",sans-serif;
     font-weight: 300;

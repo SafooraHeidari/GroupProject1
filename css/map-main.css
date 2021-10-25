@@ -1,0 +1,52 @@
+.map--main , .map--main--pic{
+    width: 50%;
+    margin: auto;
+    color: #34622b;
+}
+.map--main h2 , .map--main h3 {
+    font-family: "Lora",sans-serif;
+    font-weight: 300;
+}
+.map--main--pic{
+    margin-top: 6rem;
+}
+.lamp--container {
+    border: 1px #ccc solid;
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 800px){
+    .flag-pic {
+        margin-top: -5rem;
+    }
+    .map--main p {
+        text-align: left;
+    }
+    .map--main h2 {
+        font-size: 2rem;
+    }
+    .flag-pic{
+        animation-name: zoomIn;
+        animation-duration: 2.5s;
+        animation-delay: 500ms;
+        transition: animation ease-out;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .map--main--pic {
+        width: 85%;
+    }
+    .main--pic{
+         width: 300px;
+     }
+    .lamp--container {
+        display: flex;
+        flex-direction: row;
+    }
+    .lamp--container img {
+        width: 32px;
+        height: 32px;
+        padding-top: 1rem;
+    }
+}
