@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #208222;
+    --btn-color: #144e1c;
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Lora', serif;
+    --font3: 'Roboto', sans-serif;
+    --p-color: #34622b;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, span, a {
+    color: var(--p-color);
+    font-family: var(--font3);
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+h2, h1, h3, dt, dd {
+    color: #144e1c;
+    margin-bottom: 15px;
+    font-family: var(--font2);
+}
+
+.btn__style {
+    border-color: var(--btn-color);
+    font-family: var(--font1);
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 15px 35px;
+    border-width: 2px;
+    border-radius: 0;
+}
+.btn_style{
+    background-color: rgba(219, 221, 226, 0);
+}
+.btn__style:hover{
+    background-color: white;
+    color: var(--p-color);
+}
+.btn__secondary {
+    border-color: var(--btn-color);
+}
+
+.btn__style a {
+    color: var(--btn-color);
+}
+
+.product-7 {
+    background-color: #a08870;
+}
+
+.product-8 {
+    background-color: #365d2e;
+}
+
+.product-9 {
+    background-color: #c8a2af;
+}
+
+.product-1 {
+    background-color: #262628;
+}
+
+.product-2 {
+    background-color: #bababc;
+}
+
+.product-3 {
+    background-color: #6a2528;
+}
+
+.product-4 {
+    background-color: #274649;
+}
+
+.product-5 {
+    background-color: #392338;
+}
+
+.product-6 {
+    background-color: #aeabbe;
+}

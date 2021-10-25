@@ -1,0 +1,84 @@
+
+#main--element{
+    height: 100%;
+    margin: 0;
+}
+.caption{
+    font-family: var(--font2);
+
+}
+#bgimg-1 {
+    background-image: url("../images/tea-slider-bg.jpg");
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 24%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.logo-slider{
+    position: relative;
+    height: 69px;
+    width: 74px;
+
+}
+.border {
+    font-family: var(--font2);
+    background-color: transparent;
+    color: #fff;
+    font-size: 3.1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    white-space: normal;
+    display: inline-block;
+    width: 45%;
+}
+
+.caption p {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    color: #baa9b9;
+    font-size: 11px;
+    white-space: pre-line;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    #bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+@media only screen and (max-width: 597px) {
+
+    .border{
+        font-size: 20px;
+        width: 67%;
+    }
+    .logo-slider{
+        width: 30px;
+        height: 30px;
+    }
+    .caption p{
+        display: none;
+    }
+}
+@media only screen and (min-width: 597px) and (max-width:1024px){
+    .border{
+        font-size: 20px;
+        width: 35%;
+    }
+    .caption p{
+        font-size: 6px;
+    }
+}

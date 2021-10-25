@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/global.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="slider-teashop">
+    <!--Sticky menu-->
+    <div id="navbar">
+        <div id="navbar-main">
+            <img class="logo" src="images/tea4.png"/>
+            <a class="active" href="home-page.html">Home</a>
+            <a href="Teashop-page.html">Tea shop</a>
+            <a href="Details-page.html">Details</a>
+            <a href="">About us</a>
+            <a href="">Contact</a>
+            <a href="">Buy now</a>
+            <span id="icons">
+                <span class="bag-shop-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                 width="24" height="24"
+                                                 viewBox="0 0 172 172"
+                                                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none"
+                                                                           stroke-width="1" stroke-linecap="butt"
+                                                                           stroke-linejoin="miter"
+                                                                           stroke-miterlimit="10"
+                                                                           stroke-dasharray="" stroke-dashoffset="0"
+                                                                           font-family="none" font-weight="none"
+                                                                           font-size="none" text-anchor="none"
+                                                                           style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path d="M82.41667,7.16667c-16.53604,0 -30.24445,12.59212 -32.04004,28.66667h-7.37663c-8.28467,0 -15.18102,6.21064 -16.04102,14.45231l-8.95833,86c-0.473,4.53292 1.00624,9.07826 4.05924,12.47168c3.053,3.38625 7.42377,5.32601 11.98177,5.32601h103.91667c4.558,0 8.92877,-1.93976 11.98177,-5.32601c3.053,-3.38983 4.52524,-7.93876 4.05224,-12.47168l-8.95134,-86c-0.86,-8.24167 -7.75635,-14.45231 -16.04101,-14.45231h-7.33464c0.11108,1.1825 0.16797,2.37933 0.16797,3.58333v7.16667h7.16667c2.76275,0 5.06034,2.07369 5.34701,4.8221l8.95833,86c0.15766,1.51217 -0.33667,3.02506 -1.35075,4.15023c-1.01767,1.12875 -2.47692,1.77767 -3.99626,1.77767h-103.91667c-1.51933,0 -2.97517,-0.64551 -3.98926,-1.77067c-1.01767,-1.12875 -1.51541,-2.64506 -1.35775,-4.15723l8.95833,-86c0.28667,-2.74842 2.58426,-4.8221 5.34701,-4.8221h7.16667v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-11.93709 9.56291,-21.5 21.5,-21.5c10.71331,0 19.49313,7.70805 21.18506,17.91667h-35.04248c-0.301,1.14667 -0.47591,2.3435 -0.47591,3.58333v7.16667h35.83333v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-17.74724 -14.50276,-32.25 -32.25,-32.25z"></path>
+                    </g>
+                </g>
+            </svg></span>
+
+
+            <span class="menu-icon" onclick="openMenu()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                              width="24" height="24"
+                                                              viewBox="0 0 226 226"
+                                                              style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none"
+                                                                                        stroke-width="1" stroke-linecap="butt"
+                                                                                        stroke-linejoin="miter" stroke-miterlimit="10"
+                                                                                        stroke-dasharray="" stroke-dashoffset="0"
+                                                                                        font-family="none" font-weight="none"
+                                                                                        font-size="none" text-anchor="none"
+                                                                                        style="mix-blend-mode: normal"><path
+                    d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path
+                    d="M18.83333,47.08333v18.83333h188.33333v-18.83333zM18.83333,103.58333v18.83333h188.33333v-18.83333zM18.83333,160.08333v18.83333h188.33333v-18.83333z"></path></g></g></svg></span>
+
+            </span>
+
+        </div>
+    </div>
+
+
+    <!--    Mobile menu burger-->
+    <div id="navbar--mobile">
+        <div id="navbar-main--mobile">
+            <table>
+                <tr id="close--icon" onclick="closeMenu()">
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                             width="24" height="24"
+                             viewBox="0 0 172 172"
+                             style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                               stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                               font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                               style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path d="M40.90039,30.76628l-10.13411,10.13411l45.09961,45.09961l-45.09961,45.09961l10.13411,10.13411l45.09961,-45.09961l45.09961,45.09961l10.13411,-10.13411l-45.09961,-45.09961l45.09961,-45.09961l-10.13411,-10.13411l-45.09961,45.09961z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </td>
+                </tr>
+                <tr id = "bag-shop-menu-burger">
+                    <td><span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                   width="24" height="24"
+                                   viewBox="0 0 172 172"
+                                   style=" fill:#000000;"><g fill="none" fill-rule="nonzero"
+                                                             stroke="none"
+                                                             stroke-width="1"
+                                                             stroke-linecap="butt"
+                                                             stroke-linejoin="miter"
+                                                             stroke-miterlimit="10"
+                                                             stroke-dasharray=""
+                                                             stroke-dashoffset="0"
+                                                             font-family="none" font-weight="none"
+                                                             font-size="none" text-anchor="none"
+                                                             style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path d="M82.41667,7.16667c-16.53604,0 -30.24445,12.59212 -32.04004,28.66667h-7.37663c-8.28467,0 -15.18102,6.21064 -16.04102,14.45231l-8.95833,86c-0.473,4.53292 1.00624,9.07826 4.05924,12.47168c3.053,3.38625 7.42377,5.32601 11.98177,5.32601h103.91667c4.558,0 8.92877,-1.93976 11.98177,-5.32601c3.053,-3.38983 4.52524,-7.93876 4.05224,-12.47168l-8.95134,-86c-0.86,-8.24167 -7.75635,-14.45231 -16.04101,-14.45231h-7.33464c0.11108,1.1825 0.16797,2.37933 0.16797,3.58333v7.16667h7.16667c2.76275,0 5.06034,2.07369 5.34701,4.8221l8.95833,86c0.15766,1.51217 -0.33667,3.02506 -1.35075,4.15023c-1.01767,1.12875 -2.47692,1.77767 -3.99626,1.77767h-103.91667c-1.51933,0 -2.97517,-0.64551 -3.98926,-1.77067c-1.01767,-1.12875 -1.51541,-2.64506 -1.35775,-4.15723l8.95833,-86c0.28667,-2.74842 2.58426,-4.8221 5.34701,-4.8221h7.16667v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-11.93709 9.56291,-21.5 21.5,-21.5c10.71331,0 19.49313,7.70805 21.18506,17.91667h-35.04248c-0.301,1.14667 -0.47591,2.3435 -0.47591,3.58333v7.16667h35.83333v12.54167c-0.02741,1.93842 0.99102,3.74144 2.66532,4.71865c1.6743,0.97721 3.74507,0.97721 5.41937,0c1.6743,-0.97721 2.69273,-2.78023 2.66532,-4.71865v-19.70833c0,-17.74724 -14.50276,-32.25 -32.25,-32.25z"></path>
+                    </g>
+                </g>
+            </svg></span></td>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                </tr>
+                <tr>
+                    <td>Tea shop</td>
+                </tr>
+                <tr>
+                    <td>Details</td>
+                </tr>
+                <tr>
+                    <td>About us</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                </tr>
+                <tr>
+                    <td>Buy now</td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+    <di class="view-text">
+        <h1>
+            View our<br>tea selections
+        </h1>
+    </di>
+</div>
+
+
+<div class="countainer">
+    <div class="home-icon">
+        <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'
+        'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+        <svg class="arraw-icon" height="35px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+             width="35px" xml:space="preserve" fill="#34622b" xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+        <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'
+        'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+        <svg enable-background="new 0 0 32 32" height="20px" id="Слой_1" version="1.1" viewBox="0 0 32 32" width="20px"
+             xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Grid"><path d="M12,0H2C0.895,0,0,0.895,0,2v10c0,1.104,0.895,2,2,2h10c1.105,0,2-0.896,2-2V2C14,0.895,13.105,0,12,0z    M12,12H2V2h10V12z" fill="#34622b"/><path
+                d="M30,0H20c-1.105,0-2,0.895-2,2v10c0,1.104,0.895,2,2,2h10c1.104,0,2-0.896,2-2V2C32,0.895,31.104,0,30,0z    M30,12H20V2h10V12z"
+                fill="#34622b"/><path
+                d="M30,18H20c-1.105,0-2,0.896-2,2v10c0,1.105,0.895,2,2,2h10c1.104,0,2-0.895,2-2V20   C32,18.895,31.104,18,30,18z M30,30l-10,0V20h10V30z"
+                fill="#34622b"/><path
+                d="M12,18H2c-1.105,0-2,0.896-2,2v10c0,1.105,0.895,2,2,2h10c1.105,0,2-0.895,2-2V20   C14,18.895,13.105,18,12,18z M12,30L2,30V20h10V30z"
+                fill="#34622b"/></g>
+            <g/>
+            <g/>
+            <g/>
+            <g/>
+            <g/>
+            <g/></svg>
+    </div>
+    <div class="detail-product">
+
+        <div class="product-pic">
+            <a class="trigger" href="#">
+                <img draggable="false" src="images/211817_search_strong_icon.svg" role="img" class="emoji"
+                     alt="search">
+            </a>
+            <img class="product" src="images/pro-detail.jpg" alt="detail">
+        </div>
+        <div class="product-name">
+            <h1 class="single-pro">
+                Vivamus nulla
+            </h1>
+            <p class="price">
+                £5.00
+            </p>
+            <div class="short-description">
+                <p>
+                    Curabitur imperdiet, risus libero, pharetra sem, sed leo. Sed pulvinar massa molestie augue
+                    imperdiet
+                    dignissim tempor, ligula nunc, dapibus nisl a enim metus imperdiet ut, tristique senectus et est eu
+                    arcu
+                    quis erat sed lorem nonummy sed, dui. </p>
+            </div>
+
+            <dl>
+                <dt>Country of origin</dt>
+                <dd>India</dd>
+            </dl>
+
+            <dl>
+                <dt class="hide">Ingredients</dt>
+                <dd class="hide">Fine black tea from Assam, Sri Lanka, Darjeeling and Africa</dd>
+            </dl>
+            <form>
+                <input type="number" class="input-text" step="1" min="1" value="1" size="1">
+                <button class="btn__style single_add_to_cart_button">Add to Cart</button>
+            </form>
+            <div class="product-meta">
+            <span class="post">
+                Category:
+                <a class="meta-link" href="#"> Camellia Sinensis </a>
+            </span>
+            </div>
+            <div class="social-button">
+                <span class="share-label">Share</span>
+                <div class="icons">
+                    <svg class="icon" baseProfile="tiny" height="20px" id="Layer_1" version="1.2" viewBox="0 0 24 24"
+                         width="20px" fill="#34622b"
+                         xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M13,10h3v3h-3v7h-3v-7H7v-3h3V8.745c0-1.189,0.374-2.691,1.118-3.512C11.862,4.41,12.791,4,13.904,4H16v3h-2.1   C13.402,7,13,7.402,13,7.899V10z"/></g></svg>
+                    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+                    'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+                    <svg enable-background="new 0 0 32 32" class="icon" height="18px" id="Layer_1" version="1.0"
+                         viewBox="0 0 32 32" width="21px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M31.993,6.077C30.816,6.6,29.552,6.953,28.223,7.11c1.355-0.812,2.396-2.098,2.887-3.63  c-1.269,0.751-2.673,1.299-4.168,1.592C25.744,3.797,24.038,3,22.149,3c-3.625,0-6.562,2.938-6.562,6.563  c0,0.514,0.057,1.016,0.169,1.496C10.301,10.785,5.465,8.172,2.227,4.201c-0.564,0.97-0.888,2.097-0.888,3.3  c0,2.278,1.159,4.286,2.919,5.464c-1.075-0.035-2.087-0.329-2.972-0.821c-0.001,0.027-0.001,0.056-0.001,0.082  c0,3.181,2.262,5.834,5.265,6.437c-0.55,0.149-1.13,0.23-1.729,0.23c-0.424,0-0.834-0.041-1.234-0.117  c0.834,2.606,3.259,4.504,6.13,4.558c-2.245,1.76-5.075,2.811-8.15,2.811c-0.53,0-1.053-0.031-1.566-0.092  C2.905,27.913,6.355,29,10.062,29c12.072,0,18.675-10.001,18.675-18.675c0-0.284-0.008-0.568-0.02-0.85  C30,8.55,31.112,7.395,31.993,6.077z" fill="#34622b"/>
+                        <g/>
+                        <g/>
+                        <g/>
+                        <g/>
+                        <g/>
+                        <g/></svg>
+
+                    <svg class="icon" baseProfile="tiny" height="20px" id="Layer_1" version="1.2" viewBox="0 0 24 24"
+                         width="20px" fill="#34622b"
+                         xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M8,19H5V9h3V19z M19,19h-3v-5.342c0-1.392-0.496-2.085-1.479-2.085c-0.779,0-1.273,0.388-1.521,1.165C13,14,13,19,13,19h-3   c0,0,0.04-9,0-10h2.368l0.183,2h0.062c0.615-1,1.598-1.678,2.946-1.678c1.025,0,1.854,0.285,2.487,1.001   C18.683,11.04,19,12.002,19,13.353V19z"/></g>
+                        <g><ellipse cx="6.5" cy="6.5" rx="1.55" ry="1.5"/></g></svg>
+                    <?xml version="1.0" ?>
+                    <svg baseProfile="tiny" class="icon" height="20px" id="Layer_1" version="1.2" viewBox="0 0 24 24"
+                         width="20px" fill="#34622b"
+                         xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M12.486,4.771c-4.23,0-6.363,3.033-6.363,5.562c0,1.533,0.581,2.894,1.823,3.401c0.205,0.084,0.387,0.004,0.446-0.221   c0.041-0.157,0.138-0.553,0.182-0.717c0.061-0.221,0.037-0.3-0.127-0.495c-0.359-0.422-0.588-0.972-0.588-1.747   c0-2.25,1.683-4.264,4.384-4.264c2.392,0,3.706,1.463,3.706,3.412c0,2.568-1.137,4.734-2.824,4.734   c-0.932,0-1.629-0.77-1.405-1.715c0.268-1.13,0.786-2.347,0.786-3.16c0-0.729-0.392-1.336-1.2-1.336   c-0.952,0-1.718,0.984-1.718,2.304c0,0.841,0.286,1.409,0.286,1.409s-0.976,4.129-1.146,4.852c-0.34,1.44-0.051,3.206-0.025,3.385   c0.013,0.104,0.149,0.131,0.21,0.051c0.088-0.115,1.223-1.517,1.607-2.915c0.111-0.396,0.627-2.445,0.627-2.445   c0.311,0.589,1.213,1.108,2.175,1.108c2.863,0,4.804-2.608,4.804-6.103C18.123,7.231,15.886,4.771,12.486,4.771z"/></g></svg>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tab-links" id = "default-open" onclick="openTab(event, 'Description')">Description</button>
+    <button class="tab-links" onclick="openTab(event, 'Additional-info')">Additional information</button>
+</div>
+
+<!-- Tab content -->
+<div id="Description" class="tab-content">
+    <div class="main-container">
+        <div>
+        <span id="title">
+            Travel map lorm ipsum dolor mitquan samet etom
+        </span>
+            <p class = "main-container--p">
+                Suspendisse commodo pulvinar diam lorem, malesuada fames ac augue. Sed leo vulputate sed, posuere cubilia
+                Curae, In pretium eget, aliquet ipsum at turpis. Etiam commodo, volutpat aliquam eget, neque. Etiam rutrum,
+                est lacus vestibulum sed, viverra pede sit amet sapien magna suscipit sed
+            </p>
+            <table class = "table--details">
+                <tr>
+                    <th>Spices</th>
+                    <td>Quantum, Teronte, Qant Chi</td>
+                </tr>
+                <tr>
+                    <th>Leaves</th>
+                    <td>Nostri Belladonna</td>
+                </tr>
+            </table>
+            <p class = "main-container--p">
+                Vestibulum non nonummy gravida. Duis neque tellus, fringilla viverra justo. Proin id nisl. Proin id purus
+                non sem. Integer mi ornare velit ac turpis quis nisl. Curabitur imperdiet, risus libero, pharetra sem, sed
+                leo. Sed pulvinar massa molestie augue imperdiet dignissim tempor, ligula nunc, dapibus nisl a enim metus
+                imperdiet ut.
+            </p>
+        </div>
+        <div>
+            <img src="images/tea4-details-pic1.png"/>
+        </div>
+    </div>
+</div>
+
+<div id="Additional-info" class="tab-content">
+    <table>
+        <tr class = "first-row">
+            <th>Weight</th>
+            <td><em>1 kg</em></td>
+        </tr>
+        <tr>
+            <th>Dimensions</th>
+            <td><em>45 &#215 45 &#215 15 cm</em></td>
+        </tr>
+    </table>
+</div>
+
+<!--icons-->
+<div>
+    <div class="main-icon-detail">
+
+        <div class="icon-home-detail border-hidden">
+            <div class="flex-icon-detail">
+                <img src="images/tea4-details-icon1.png" alt="">
+            </div>
+            <div>
+                <h5 class="explain-icon">
+                    Magna pharetra
+                </h5>
+            </div>
+        </div>
+        <div class="icon-home-detail">
+            <div class="flex-icon-detail">
+                <img src="images/tea4-details-icon2.png" alt="">
+            </div>
+            <div>
+                <h5 class="explain-icon">
+                    Curabitur iaculis
+                </h5>
+            </div>
+        </div>
+        <div class="icon-home-detail">
+            <div class="flex-icon-detail">
+                <img src="images/tea4-details-icon3.png" alt="">
+            </div>
+            <div>
+                <h5 class="explain-icon">
+                    Maecenas imperdiet
+                </h5>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Play video-->
+<div id = "video--container">
+    <div id="video--title">Lorem quantom pestro mira vinto</div>
+
+
+    <img id="video--img" src="images/tea4-details-pic2.jpg"/>
+    <div id="play--video--container"><div class="video--border"></div><div id="play--video">PLAY VIDEO</div><div class="video--border"></div></div>
+
+</div>
+
+<!--Related Products-->
+<div class="Teashop-container Teashop--container">
+    <p class = "Teashop-container--p">Related Products</p>
+
+    <div class = "gallery">
+        <div>
+            <div class="album product-7">
+                <img class = "product--image" src="images/tea4-shop-pic7.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Pulvinar massa</a></div>
+            <div class="product--price">&#163 18.00</div>
+        </div>
+
+        <div>
+            <div class="album product-1">
+                <img class = "product--image" src="images/tea4-shop-pic1.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Aliquam interdum</a></div>
+            <div class="product--price">&#163 1.00</div>
+        </div>
+
+        <div>
+            <div class="album product-3">
+                <img class = "product--image" src="images/tea4-shop-pic3.jpg"/>
+            </div>
+            <div class="product--name"><a href="">Dapibus quam</a></div>
+            <div class="product--price">&#163 3.00</div>
+        </div>
+    </div>
+
+</div>
+<!--footer-->
+<div class="footer--container">
+    <div class="footer--logo">
+        <img src="images/tea4-footer-logo.png"/>
+    </div>
+
+    <div class="footer--contact">
+        <div class="footer--title">Contact with us</div>
+        <div class="footer--text">Nullam viverra consectetuer quisque cursus et, porttitor risus.</div>
+        <div>
+            <svg class="footer--icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 width="18" height="18"
+                 viewBox="0 0 172 172"
+                 style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                   font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                   style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#144e1c">
+                        <path d="M16.125,37.625v0.16797l69.875,41.99219l69.875,-41.99219v-0.16797zM16.125,50.39063v83.98438h139.75v-83.98437l-69.875,41.82422z"></path>
+                    </g>
+                </g>
+            </svg>
+            <div class="footer--text">noreply@envato.com</div>
+        </div>
+        <div>
+            <svg class="footer--icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 width="18" height="18"
+                 viewBox="0 0 172 172"
+                 style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                   font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                   style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="#e3e6e4"></path>
+                    <g fill="#144e1c">
+                        <path d="M120.4,5.73333h-68.8c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v137.6c0,6.33533 5.13133,11.46667 11.46667,11.46667h68.8c6.33533,0 11.46667,-5.13133 11.46667,-11.46667v-137.6c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667zM86,154.8c-3.1648,0 -5.73333,-2.56853 -5.73333,-5.73333c0,-3.1648 2.56853,-5.73333 5.73333,-5.73333c3.1648,0 5.73333,2.56853 5.73333,5.73333c0,3.1648 -2.56853,5.73333 -5.73333,5.73333zM120.4,137.6h-68.8v-114.66667h68.8z"></path>
+                    </g>
+                </g>
+            </svg>
+            <div class="footer--text">+61 (0) 3 8376 6284</div>
+        </div>
+    </div>
+
+    <div class="footer--localization">
+        <div class="footer--title">Localization</div>
+        <div class="footer--text">
+            Envato<br>
+            Level 13, 2 Elizabeth,<br>
+            Victoria 3000,<br>
+            Australia
+        </div>
+
+    </div>
+
+    <div class="footer--copy-right">
+        <svg class="footer--icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             width="18" height="18"
+             viewBox="0 0 172 172"
+             style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+               stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+               font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#144e1c">
+                    <path d="M86,14.33333c-39.49552,0 -71.66667,32.17115 -71.66667,71.66667c0,39.49552 32.17115,71.66667 71.66667,71.66667c39.49552,0 71.66667,-32.17115 71.66667,-71.66667c0,-39.49552 -32.17115,-71.66667 -71.66667,-71.66667zM86,28.66667c31.74921,0 57.33333,25.58412 57.33333,57.33333c0,31.74921 -25.58412,57.33333 -57.33333,57.33333c-31.74921,0 -57.33333,-25.58412 -57.33333,-57.33333c0,-31.74921 25.58412,-57.33333 57.33333,-57.33333zM86,50.20866c-9.18585,0 -18.36848,3.48925 -25.33529,10.45605c-13.93361,13.93361 -13.93361,36.73697 0,50.67057c13.93361,13.93361 36.73697,13.93361 50.67057,0l-10.13411,-10.13411c-8.45506,8.45506 -21.94729,8.45506 -30.40235,0c-8.45506,-8.45506 -8.45506,-21.94729 0,-30.40235c8.45506,-8.45506 21.94728,-8.45506 30.40235,0l10.13411,-10.13411c-6.9668,-6.9668 -16.14943,-10.45605 -25.33528,-10.45605z"></path>
+                </g>
+            </g>
+        </svg>
+        <div id="copy-right--text">2021 Betheme by Muffin group | All Rights Reserved | Powered by WordPress</div>
+    </div>
+
+
+</div>
+
+<script src="js/Description-details.js"></script>
+<script src="js/sticky-menu.js"></script>
+<script src="js/menu-burger.js"></script>
+
+</body>
+</html>

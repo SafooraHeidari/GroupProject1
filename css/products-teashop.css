@@ -1,0 +1,31 @@
+.Teashop--container {
+    padding-top: 30px;
+}
+
+#sorting {
+    float: right;
+    padding: 10px;
+    font-family: var(--font3);
+    font-size: 14px;
+    min-width: 200px;
+    color: #8da681;
+    background-color: rgba(21, 46, 19, 0);
+    border-color: #8da681;
+    margin: 20px;
+}
+
+.shop-filter {
+    background-image: url("../images/stripes_5_b.png");
+    margin: auto;
+    font-family: var(--font3);
+    width: 1080px;
+    height: 80px;
+}
+
+.shop-filter p {
+    font-size: 15px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+

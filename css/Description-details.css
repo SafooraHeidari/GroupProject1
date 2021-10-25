@@ -1,0 +1,143 @@
+
+/* Style the tab */
+.tab {
+    width: 1080px;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ebe9eb;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background-color: inherit;
+    /*float: left;*/
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font3);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 14px 30px;
+    color: #34622b;
+}
+.tab button:hover{
+    border-bottom: 1px solid #34622b;
+}
+#Additional-info{
+    display: none;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 965px;
+    margin: auto;
+}
+.main-container div:first-of-type{
+    margin-right: 30px;
+}
+#title{
+    font-family: var(--font2);
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 300;
+    color: var(--btn-color);
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+.table--details{
+    font-family: var(--font3);
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--btn-color);
+    padding-left: 40px;
+}
+.main-container--p{
+    font-family: var(--font3);
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--btn-color);
+    padding-left: 40px;
+}
+.Teashop-container--p{
+    font-family: var(--font2);
+    font-size: 21px;
+    margin-left: 200px;
+    font-weight: 300;
+}
+#Additional-info table{
+    width: 1200px;
+    margin: auto;
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--btn-color);
+}
+#Additional-info table th{
+    width: 150px;
+    border-bottom: 1px dotted rgba(0,0,0,.1);
+    padding: 8px;
+    line-height: 1.5;
+}
+#Additional-info table td{
+    width: 950px;
+    text-align: center;
+}
+#Description{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 360px){
+    .tab {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        overflow: hidden;
+        border-bottom: 1px solid #ebe9eb;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    .main-container img{
+        width: 250px;
+        height: 220px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .main-container--p{
+        font-family: var(--font3);
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    .table--details{
+        font-family: var(--font3);
+        font-size: 13px;
+        line-height: 3;
+        padding: 15px 30px;
+        width: 300px
+    }
+    #Additional-info table th{
+        height: 50px;
+    }
+    #title{
+        display: block;
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-left: 40px;
+        margin-top: 0;
+        /*margin-bottom: 20px;*/
+    }
+    .Teashop-container--p{
+        margin-left: 20px;
+    }
+    #Additional-info table{
+        width: 300px;
+    }
+
+}

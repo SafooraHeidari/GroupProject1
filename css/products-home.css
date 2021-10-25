@@ -1,0 +1,23 @@
+.home--container{
+    background-color: #e8ebe9;
+    padding-top: 60px;
+}
+.content-title{
+    text-align: center;
+    color: var(--btn-color);
+    font-family: var(--font2);
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.btn--position{
+    margin-top: 100px;
+    text-align: center;
+}
+@media (max-width: 470px) {
+    .gallery {
+        width: 100vw;
+        height: auto;
+    }
+}
