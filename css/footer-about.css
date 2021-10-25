@@ -1,0 +1,81 @@
+.footer {
+    width: 100%;
+    color: #144e1c;
+    background-color: #e3e6e4;
+}
+.footer div a {
+    color: #144e1c;
+    text-decoration: none;
+}
+.footer div a:hover {
+    text-decoration: underline;
+}
+
+.footer--container {
+    width: 70%;
+    margin: auto;
+}
+
+.footer--flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.footer--flex > div:first-of-type{
+    text-align: center;
+}
+
+.footer--flex h4,.footer--flex h5 {
+    font-weight: 300;
+}
+
+.toUp {
+    color: grey;
+    background-color: transparent;
+    border: 3px grey solid;
+    font-size: 5px;
+    padding: 10px;
+    transition: 5s linear;
+}
+.copy-right--flex {
+    padding: 2rem 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px){
+    .footer--flex{
+        flex-direction: row;
+    }
+    .footer--flex > div {
+        width:30%
+    }
+
+    .footer--flex h4 {
+        font-size: 1.4rem;
+        margin: 0 0 5rem;
+
+    }
+    .footer--flex h5 {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .footer--flex h4 {
+        margin: 4rem 0;
+
+    }
+    .footer--flex h5 ,.footer--flex h4 {
+        font-size: 0.9rem;
+    }
+    .copy-right--flex {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+}
