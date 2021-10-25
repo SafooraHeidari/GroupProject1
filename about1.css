@@ -1,0 +1,140 @@
+.paragraph1{
+    text-align: center;
+    font-size: 1vw;
+    color: #34622b;
+}
+.paragraph2{
+    text-align: center;
+    font-size: 3vw;
+    color:  #34622b;
+}
+.paragraph3{
+    color:  #34622b;
+    text-align: center;
+    font-size: 5vw;
+    margin:0px 0px -20px 0px;
+}
+.paragraph4{
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0px;
+    color:  #34622b;
+}
+.paragraph5{
+    text-align: center;
+    font-size: 1vw;
+    color:  #34622b;
+}
+.paragraph6{
+    text-align: center;
+    font-size: 3vw;
+    color:  #34622b;
+}
+.paragraph7{
+    font-size: 1.5vw;
+    color:  #34622b;
+}
+.paragraph8{
+    font-size: 1.7vw;
+    color:  #34622b;
+}
+.paragraph9{
+    font-size: 1.4vw;
+    color:  #34622b;
+    display: inline-block ;
+    vertical-align: middle;
+    margin:unset;
+}
+.paragraph10{
+    font-size: 1.4vw;
+    color:  #34622b;
+    display: inline-block ;
+    vertical-align: middle;
+}
+.paragraph11{
+    font-size: 1.4vw;
+    color:  #34622b;
+}
+.paragraph12{
+    color:  #34622b;
+    font-size: 1.3vw;
+    float: right;
+}
+.icon-phone{
+    color:  #34622b;
+    font-size: 0vw ;
+    display: inline-block ;
+    vertical-align: middle;
+}
+.icon-mail{
+    color:  #34622b;
+    font-size: 0vw ;
+    display: inline-block ;
+    vertical-align: middle;
+}
+.icon-lamp{
+    display: inline-block;
+    vertical-align: middle;
+    color: darkgrey;
+    font-size: 2px;
+}
+.border{
+    border: 1px darkgray solid;
+    height: 5vw;
+    width: 59vw;
+    margin-bottom: 40px;
+}
+.picture1{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container1 {
+    display: flex;
+
+    flex-wrap: nowrap;
+}
+.footer-main{
+    height: 30vw;
+    background-color: #e0e0d1;
+    background-size: cover;
+    padding-top: 3%;
+}
+
+.fex-div1{
+    margin: auto;
+}
+.marginleft{
+    margin-left: 258px;
+    margin-right: 257px;
+}
+.marginleft2{
+    margin-left: 258px;
+    margin-right: 257px;
+    margin-top: 50px;
+}
+.footer {
+    width: 33%;
+}
+.body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("image/tea4-section-bg1.png");
+    background-attachment: fixed;
+}
+.to-first{
+    display: block;
+    vertical-align: middle;
+    border: 1px;
+    border-style: solid;
+    border-collapse: initial;
+    border-color: black;
+    float: right;
+    width: 50px ;
+    height: 50px;
+}
