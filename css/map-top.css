@@ -1,0 +1,68 @@
+.map--container {
+    width: 100%;
+    background-image: url("https://themes.muffingroup.com/be/tea4/wp-content/uploads/2021/04/tea4-section-bg1.png");
+    text-align: center;
+}
+.map--top {
+    width: 70%;
+    margin: auto;
+    color: #34622b;
+}
+.map--title h5 ,.static--container div div ,.static--container div p {
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+}
+
+.map--title h5 {
+    margin: 0;
+    padding: 10rem 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #144e1c;
+}
+.map--title h2 {
+    margin: 2rem 0;
+    font-size: 2.7rem;
+    line-height: 1rem;
+    font-family: "Lora",sans-serif;
+    font-weight: 300;
+}
+.static--container div div {
+    color: #444;
+    font-size: 60px;
+}
+.static--container div h4{
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-family: Roboto , sans-serif;
+    font-weight: 400;
+}
+.static--container div p {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 800px){
+    .static--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .static--container > div {
+        margin: 0 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .map--top {
+        width: 80%;
+    }
+    .map--title h2,.map--image {
+        margin-top: 1rem;
+    }
+    .map--title h2 {
+        font-size: 2rem;
+    }
+    .map--image{
+        width: 280px;
+    }
+}
