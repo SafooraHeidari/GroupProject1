@@ -3,7 +3,7 @@
     font-size: 1vw;
     color: #34622b;
 }
-.paragraph2{
+.paragraph-h2{
     text-align: center;
     font-size: 3vw;
     color:  #34622b;
@@ -110,13 +110,16 @@
     margin: auto;
 }
 .marginleft{
-    margin-left: 258px;
-    margin-right: 257px;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 .marginleft2{
-    margin-left: 258px;
-    margin-right: 257px;
-    margin-top: 50px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vw;
+}
+@media  {
+    
 }
 .footer {
     width: 33%;
@@ -133,8 +136,9 @@
     border: 1px;
     border-style: solid;
     border-collapse: initial;
-    border-color: black;
+    border-color: darkgray;
     float: right;
     width: 50px ;
     height: 50px;
+
 }
